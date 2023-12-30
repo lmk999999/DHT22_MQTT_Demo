@@ -1,0 +1,15 @@
+sudo apt update && sudo apt upgrade
+sudo pip install --upgrade
+sudo apt-get install python3-pip
+sudo pip3 install --upgrade setuptools
+sudo pip3 install paho-mqtt
+sudo pip3 install adafruit-circuitpython-dht
+
+
+使用安全性版本 pi os
+
+先安裝 Adafruit CircuitPython 底層架構程式
+https://learn.adafruit.com/circuitpython-on-raspberrypi-linux?view=all
+
+再使用 adafruit-circuitpython-dht 3.7.2 
+https://pypi.org/project/adafruit-circuitpython-dht/
